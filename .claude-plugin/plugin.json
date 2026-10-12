@@ -1,0 +1,31 @@
+{
+  "name": "done-confetti",
+  "displayName": "Done Confetti",
+  "version": "1.0.0",
+  "description": "Raycast confetti and a sound when a long Claude Code turn finishes",
+  "author": { "name": "Nhan Ngo" },
+  "repository": "https://github.com/tnt1232007/claude-plugin-done-confetti",
+  "license": "MIT",
+  "keywords": ["confetti", "raycast", "sound", "notification"],
+  "userConfig": {
+    "min_seconds": {
+      "type": "number",
+      "title": "Minimum turn length (seconds)",
+      "description": "Turns shorter than this end silently",
+      "default": 30,
+      "min": 0
+    },
+    "sound": {
+      "type": "boolean",
+      "title": "Play sound",
+      "description": "A success sound when a turn finishes, an error sound when it ends in an error",
+      "default": true
+    },
+    "confetti": {
+      "type": "boolean",
+      "title": "Raycast confetti",
+      "description": "Open raycast://confetti when a turn finishes (macOS and Windows, needs Raycast)",
+      "default": true
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "done-confetti",
+  "description": "Celebrate finished Claude Code turns with Raycast confetti and a sound",
+  "owner": { "name": "Nhan Ngo" },
+  "plugins": [
+    {
+      "name": "done-confetti",
+      "source": "./",
+      "description": "Raycast confetti and a sound when a long Claude Code turn finishes"
+    }
+  ]
+}
